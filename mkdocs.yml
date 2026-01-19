@@ -1,0 +1,22 @@
+site_name: My MkDocs Material Documentation
+site_url: https://sitename.example
+
+theme:
+  name: material
+  font: Merriweather Sans
+  palette:
+    # Dark mode
+    - scheme: slate
+      primary: green
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Light mode
+    - scheme: default
+      primary: green
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
